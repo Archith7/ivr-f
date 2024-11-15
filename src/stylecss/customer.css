@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+  }
+  
+  .heading {
+    margin-bottom: 0.1rem; /* Space between heading and cards */
+  }
+  
+  .content {
+    display: flex; /* Display cards and image side by side */
+    flex-direction: row; /* Align items horizontally */
+    gap: 5rem; /* Space between the cards and the image */
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column; /* Stack the cards vertically */
+  }
+  
+  .card {
+    width: 500px;
+    border-radius: 20px; /* Rounded corners */
+    transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth hover effect */
+    border: 1px solid #ddd; /* Thin border */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slightly lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  .text-primary {
+    color: #007bff; /* Bootstrap blue color */
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .h-100 {
+    height: 100%;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .card-icon {
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    color: #333; /* Adjust this color to match your Customer Service text color */
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+  .image img{
+   width:600px;
+   height: 500px;
+  }

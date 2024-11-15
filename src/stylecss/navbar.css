@@ -1,0 +1,51 @@
+/* 
+.offcanvas.offcanvas-end {
+    width: 300px !important; 
+  } */
+  
+  @media (max-width: 767px) {
+    .offcanvas.offcanvas-end {
+      width: 200px !important; 
+    }
+  }
+  
+  .offcanvas-body {
+    width: 100%;
+    
+  }
+  
+  .offcanvas-body .navbar-nav {
+    width: 100%;
+  }
+  
+  .offcanvas-body .d-flex.mt-3 {
+    width: 100%;
+  }
+
+  .navbar bg-body-tertiary fixed-top{
+    margin-top: 0 auto;
+  }
+  
+  /* body, .main-content {
+    padding-top: 56px; 
+  } */
+
+
+.navbar-toggler{
+    /* padding: 0.2em; */
+    padding: 3px;
+    width: 55px ;
+    margin-right:20px ;
+    /* height: 40px; */
+}
+
+.branding{
+    text-decoration: blueviolet;
+}
+
+.container-fluid{
+    background-color: #e9d1b5;
+}
+ 
+
+

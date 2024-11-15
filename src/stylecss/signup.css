@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .signup {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .signupcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    width: 22rem;
+    flex-direction: column;
+    gap: 2.2rem;
+    border-radius: 1rem;
+    background: #e3e3e3;
+    box-shadow: 1rem 1rem 2rem #c8c8c8, -1rem -1rem 2rem #fefefe;
+    padding: 2rem;
+  }
+  
+  .inputBox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 0.625rem;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    background: transparent;
+    border-left: 0.125rem solid #000;
+    border-bottom: 0.125rem solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .inputBox span {
+    margin-top: 0.3125rem;
+    position: absolute;
+    left: 0;
+    transform: translateY(-0.25rem);
+    margin-left: 0.625rem;
+    padding: 0.625rem;
+    pointer-events: none;
+    font-size: 0.75rem;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.1875rem;
+    border-radius: 0.5rem;
+  }
+  
+  .inputBox input:valid ~ span,
+  .inputBox input:focus ~ span {
+    transform: translateX(7rem) translateY(-0.9375rem);
+    font-size: 0.5rem;
+    padding: 0.3125rem 0.625rem;
+    background: #000;
+    letter-spacing: 0.0125rem;
+    color: #fff;
+    border: 0.125rem;
+  }
+  
+  .inputBox input:valid,
+  .inputBox input:focus {
+    border: 0.125rem solid #000;
+    border-radius: 0.5rem;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkboxLabel {
+    margin-left: 0.625rem;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.125rem;
+  }
+  
+  .admin-radio {
+    accent-color: rgb(30, 93, 239);
+    
+  }
+  .checkboxLabel{
+   font-size: x-small;
+  }
+  .enter {
+    height: 2.8125rem;
+    width: 6.25rem;
+    border-radius: 0.3125rem;
+    border: 0.125rem solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    letter-spacing: 0.125rem;
+  }
+  
+  .enter:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .signupcard {
+      width: 90%;
+      padding: 1rem;
+    }
+  
+    .inputBox {
+      width: 90%;
+    }
+  
+    .enter {
+      width: 90%;
+    }
+  }
+  

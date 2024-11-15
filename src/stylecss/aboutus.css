@@ -1,0 +1,10 @@
+.aar {
+    background: linear-gradient(to right, #83c9d4, #e3f1f3);
+    height: 100vh; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Optional: To make the text readable on the red background */
+    /* font-size: 24px; Optional: Adjust the font size */ 
+  }
+  

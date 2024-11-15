@@ -1,0 +1,140 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    /* margin-top: 5rem; */
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    /* margin-top: 5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+.login {
+    margin-top: 0.5rem;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .logincard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    width: 23.125rem;
+    flex-direction: column;
+    gap: 2.1875rem;
+    background: #e3e3e3;
+    box-shadow: 1rem 1rem 2rem #c8c8c8, -1rem -1rem 2rem #fefefe;
+    border-radius: 0.5rem;
+  }
+  
+  .inputBox {
+    position: relative;
+    width: 15.625rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 0.625rem;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    background: transparent;
+    border-left: 0.125rem solid #000;
+    border-bottom: 0.125rem solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .inputBox span {
+    margin-top: 0.3125rem;
+    position: absolute;
+    left: 0;
+    transform: translateY(-0.25rem);
+    margin-left: 0.625rem;
+    padding: 0.625rem;
+    pointer-events: none;
+    font-size: 0.75rem;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.1875rem;
+    border-radius: 0.5rem;
+  }
+  
+  .inputBox input:valid ~ span,
+  .inputBox input:focus ~ span {
+    transform: translateX(7.0625rem) translateY(-0.9375rem);
+    font-size: 0.5rem;
+    padding: 0.3125rem 0.625rem;
+    background: #000;
+    letter-spacing: 0.0125rem;
+    color: #fff;
+    border: 0.125rem;
+  }
+  
+  .inputBox input:valid,
+  .inputBox input:focus {
+    border: 0.125rem solid #000;
+    border-radius: 0.5rem;
+  }
+  
+  .enter {
+    height: 5.625vh;
+    width: 6.25rem;
+    border-radius: 0.3125rem;
+    border: 0.125rem solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1em;
+  }
+  
+  .enter:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .signup-link{
+    color: rgb(10, 80, 243);
+   text-decoration: none; 
+  }
+  
+  @media (max-width: 768px) {
+    .logincard {
+      width: 18.75rem;
+    }
+    .inputBox {
+      width: 12.5rem;
+    }
+    .enter {
+      width: 5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logincard {
+      width: 15.625rem;
+    }
+    .inputBox {
+      width: 10rem;
+    }
+    .enter {
+      width: 3.75rem;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+
+  
+
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 15 (128 GB) - Black",
+    "price": "₹70,999",
+    "originalPrice": "₹79,900",
+    "image": "images/stati1.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21 (128 GB) - Phantom Gray",
+    "price": "₹50,999",
+    "originalPrice": "₹59,900",
+    "image": "images/stati2.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": 3,
+    "name": "OnePlus 9 Pro (256 GB) - Pine Green",
+    "price": "₹60,999",
+    "originalPrice": "₹69,900",
+    "image": "images/stati3.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": 4,
+    "name": "Sony WH-1000XM4 - Black",
+    "price": "₹24,999",
+    "originalPrice": "₹29,900",
+    "image": "images/stati4.jpg",
+    "category": "electronics"
+  }
+  
+]
